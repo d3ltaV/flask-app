@@ -1,0 +1,12 @@
+
+<head>
+    <link rel="stylesheet" type="text/css" href="static/dog_page.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Hi, here are dogs!</h1>
+        {% for i in img %}
+            <img src="{{ i }}" alt="dog">
+        {% endfor %}
+    </div>
+</body>
